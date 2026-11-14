@@ -10,6 +10,8 @@ This repository demonstrates how core ISO/IEC 27001:2022 artefacts can be mainta
 - `02-risk-management/` – Risk Assessment Methodology and Risk Treatment Register (Clauses 6.1.2–6.1.3)
 - `03-statement-of-applicability/` – ISO/IEC 27001:2022 Statement of Applicability (SoA) across all 93 Annex A controls (Clause 6.1.3 d)
 - `04-policies/` – Core Information Security Policy and access control standards (Clause 5.2)
+- `06-audit-and-improvement/ – Internal Audit Report and Corrective Action (CAPA) Log (Clauses 9.2, 10.1 & 10.2)
+- `07-supplier-security/ – Third-Party Vendor Risk Assessment Matrix and Tiering Methodology (Annex A.5.19–A.5.22)
 
 ## 🎯 Key Highlights
 
