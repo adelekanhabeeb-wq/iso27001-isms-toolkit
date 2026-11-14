@@ -31,6 +31,7 @@ An internal audit was conducted across Engineering, DevOps, and People Operation
 | **Clause 6.1.2** | Risk Management | Reviewed Risk Register (`ISMS-RSK-002`); risk owners and treatment plans are clearly assigned. | **Conformant** |
 | **Annex A.5.18** | Access Rights | Sampled 15 user access reviews from Q3 2026; 2 contractor accounts lacked documented manager sign-off within the 30-day SLA. | **Minor NC-01** |
 | **Annex A.6.3** | Security Awareness | Checked LMS completion logs; 58 of 60 employees completed annual training within 30 days of hire. 2 new hires were overdue by 10 days. | **Minor NC-02** |
+| **Annex A.8.5** (Trace: [`RSK-04`](../02-risk-management/risk-register.md)) | Secure Authentication & Staging Access | Inspected Okta authentication policies and sampled 10 engineering user logins to staging AWS accounts; confirmed hardware/FIDO2 MFA is enforced and legacy password-only fallbacks are disabled. | **Conformant** |
 | **Annex A.8.24** | Cryptography | Executed automated S3 encryption audit script (`check_aws_s3_encryption.py`); 100% of production buckets use SSE-KMS. | **Conformant** |
 | **Annex A.8.15** | Logging & Monitoring | CloudTrail logs are centralized, though alert routing to Slack lacks severity tagging for low-priority events. | **OFI-01** |
 
