@@ -1,3 +1,5 @@
+01-context-and-scope/scope-statement.md → title: 1. ISMS Scope (Clause 4.3) and nav_order: 2
+
 # Information Security Management System (ISMS) Scope Statement
 
 **Document ID:** ISMS-SCP-001  
