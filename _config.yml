@@ -1,0 +1,9 @@
+title: ISO/IEC 27001:2022 ISMS Toolkit
+description: Governance-as-Code ISMS Implementation Portfolio
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
+
+search_enabled: true
+color_scheme: light
