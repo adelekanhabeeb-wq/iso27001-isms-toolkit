@@ -28,6 +28,7 @@ This Statement of Applicability defines the ISO/IEC 27001:2022 Annex A controls 
 | **A.5.23** | Information security for use of cloud services | Yes | Core SaaS production environment is hosted entirely on AWS. | Implemented | `STD-004 Cloud Security Standard` |
 | **A.6.3** | Information security awareness, education and training | Yes | Reduces human error and phishing risk across remote workforce. | Implemented | Annual security training logs |
 | **A.7.1** | Physical security perimeters | No | **Excluded:** CloudPulse operates 100% remotely with no corporate offices or on-premise data centres. AWS manages physical security under the Shared Responsibility Model. | N/A | AWS SOC 2 Type II Report |
+| **A.8.5** | Secure authentication | Yes | **Risk-Driven (`RSK-01`, `RSK-04`):** Required to prevent compromised endpoint or IAM credentials from granting unauthorised access to production and staging environments. | Implemented | Okta SSO + FIDO2/WebAuthn MFA policy; verified in [`ISMS-AUD-001`](../06-audit-and-improvement/internal-audit-and-capa-log.md) |
 | **A.8.9** | Configuration management | Yes | Prevents security drift across production containers and cloud infrastructure. | Implemented | Terraform IaC & AWS Config rules |
 | **A.8.11** | Data masking | Yes | Protects customer PII in staging and analytics environments. | In Progress | Database anonymisation pipeline (`JIRA-412`) |
 | **A.8.28** | Secure coding | Yes | Essential to prevent OWASP Top 10 vulnerabilities in SaaS product. | Implemented | GitHub Actions SAST & peer code review |
