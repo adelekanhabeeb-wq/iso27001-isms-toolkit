@@ -1,8 +1,3 @@
----
-Title: Home & Overview
-Nav_order: 1
----
-
 # ISO/IEC 27001:2022 ISMS Implementation Toolkit
 ...
 
