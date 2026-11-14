@@ -1,7 +1,7 @@
 # iso27001-isms-toolkit
 ---
-title: Home & Overview
-nav_order: 1
+Title: Home & Overview
+Nav_order: 1
 ---
 
 # ISO/IEC 27001:2022 ISMS Implementation Toolkit
