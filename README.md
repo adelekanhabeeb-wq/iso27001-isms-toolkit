@@ -1,6 +1,6 @@
 # ISO/IEC 27001:2022 ISMS Implementation Toolkit
 
-A structured, version-controlled Information Security Management System (ISMS) repository built around a fictional case study: **CloudPulse Ltd**, a 60-person B2B FinTech SaaS provider operating on AWS.
+A structured, version-controlled Information Security Management System (ISMS) repository built around a case study: **CloudPulse Ltd**, a 60-person B2B FinTech SaaS provider operating on AWS.
 
 This repository demonstrates how core ISO/IEC 27001:2022 artefacts can be maintained as **Governance-as-Code** using Markdown and Git to satisfy Clause 7.5 (Documented Information) requirements.
 
